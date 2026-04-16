@@ -1,6 +1,6 @@
 package cat;
 
-public class BigCat {
+public class BigCat{
     public String name;
     protected boolean hasFur;
     boolean hasPaws;
