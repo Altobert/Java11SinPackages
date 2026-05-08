@@ -19,8 +19,7 @@ if [ $? -eq 0 ]; then
     echo "Compilación exitosa."
     
     # Ejecutando
-    echo "*********Ejecucion*********"
-    #java -cp classes cat.BigCat
+    echo "*********Ejecucion*********"    
     java -cp classes cat.Principal
     echo "Ejecución finalizada."
 else

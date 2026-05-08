@@ -1,7 +1,7 @@
 
 package cat.species;
 
-import cat.*;
+import cat.BigCat;
 
 // extends y no extend
 // debido a que no me encuentro en el mismo pacuete, debo importar
