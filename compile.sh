@@ -13,8 +13,6 @@ echo "Compilando archivos .java..."
 echo "Compilando paquete cat:"
 javac -d classes src/cat/*.java
 
-echo "Compilando paquete mouse:"
-javac -d classes src/mouse/*.java
 
 # Verificar si la compilación fue exitosa
 if [ $? -eq 0 ]; then
@@ -23,6 +21,7 @@ if [ $? -eq 0 ]; then
     # Ejecutando
     echo "*********Ejecucion*********"
     java -cp classes cat.BigCat
+    java -cp classes cat.Principal
     echo "Ejecución finalizada."
 else
     echo "Error en la compilación."
