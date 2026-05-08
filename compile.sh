@@ -11,7 +11,7 @@ echo "*********Compilacion*********"
 echo "Compilando archivos .java..."
 
 echo "Compilando paquete cat:"
-javac -d classes src/cat/*.java
+javac -d classes src/cat/*.java  src/cat/species/*.java 
 
 
 # Verificar si la compilación fue exitosa
@@ -20,7 +20,7 @@ if [ $? -eq 0 ]; then
     
     # Ejecutando
     echo "*********Ejecucion*********"
-    java -cp classes cat.BigCat
+    #java -cp classes cat.BigCat
     java -cp classes cat.Principal
     echo "Ejecución finalizada."
 else
