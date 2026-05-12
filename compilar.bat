@@ -12,7 +12,6 @@ javac -d classes src/cat/*.java
 
 rem Ejecutando
 echo "*********Ejecucion*********"
-java -cp classes cat.BigCat
 java -cp classes cat.Principal
 echo "Ejecucion finalizada."
 
